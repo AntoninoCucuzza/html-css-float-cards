@@ -1,15 +1,69 @@
+/* #region Common */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Mulish', sans-serif;
 }
 
 :root{
     --bg-page: #fffffe ;
     --bg-cards: #0f0e17 ;
-    --text-email: #5cb0ac ;
+    --text-email: #6bcaf1 ;
     --text-cards: #fffffe ;
     --h1-title: #e53170 ;
     --p-text: #13131f ;
+}
+
+header{
+    text-align: center;
+    max-width: 900px;
+    margin-left: 30%;
+    margin-bottom: 50px;
+}
+
+h1{
+    padding: 50px;
+    color: var(--h1-title);
+    
+}
+
+h3, h5{
+    color: var(--text-cards);
+    padding: 5px;
+    margin-left: 120px;
+    
+}
+
+
+p{
+    color: var(--p-text);
+}
+
+
+/* #endregion common  */
+
+
+.box{
+    background-color: var(--bg-cards);
+    max-width: 460px;
+
+}
+
+.img{
+    float: left;
+    height: 100px;
+    width: 100px;
+}
+
+.clearfix::after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.email{
+    color: var(--text-email);
 }
 
