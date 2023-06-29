@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --bg-page: #fffffe ;
+    --bg-cards: #0f0e17 ;
+    --text-email: #5cb0ac ;
+    --text-cards: #fffffe ;
+    --h1-title: #e53170 ;
+    --p-text: #13131f ;
+}
+
