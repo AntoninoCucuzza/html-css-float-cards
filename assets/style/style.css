@@ -41,14 +41,13 @@ p{
     color: var(--p-text);
 }
 
-
 /* #endregion common  */
 
 
 .box{
     background-color: var(--bg-cards);
     max-width: 460px;
-
+    box-shadow: 0 0 5px #302f2f;
 }
 
 .img{
@@ -67,3 +66,18 @@ p{
     color: var(--text-email);
 }
 
+ 
+ main{
+    background-color: aqua;
+    height: 70vh;
+    width: 70vw;
+    margin-left: 15%;
+}
+
+div{
+    height: 100px;
+    width: 300px;
+    margin-left: 250px;
+    margin-bottom: 40px;
+    display: inline-block;
+}
