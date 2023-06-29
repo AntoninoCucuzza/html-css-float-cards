@@ -8,18 +8,17 @@
 }
 
 :root{
-    --bg-page: #fffffe ;
-    --bg-cards: #0f0e17 ;
-    --text-email: #6bcaf1 ;
-    --text-cards: #fffffe ;
     --h1-title: #e53170 ;
     --p-text: #13131f ;
+    --bg-cards: #0f0e17 ;
+    --text-cards: #fffffe ;
+    --text-email: #6bcaf1 ;
 }
 
 header{
     text-align: center;
     max-width: 900px;
-    margin-left: 30%;
+    margin-left: 35%;
     margin-bottom: 50px;
 }
 
@@ -41,13 +40,25 @@ p{
     color: var(--p-text);
 }
 
+main{
+    height: 70vh;
+    width: 70vw;
+    margin-left: 15%;
+}
+
+
 /* #endregion common  */
 
 
 .box{
+    height: 100px;
+    width: 300px;
+    margin-left: 250px;
+    margin-bottom: 40px;
+    display: inline-block;
     background-color: var(--bg-cards);
     max-width: 460px;
-    box-shadow: 0 0 5px #302f2f;
+    box-shadow: 0px 0px 10px 4px #302f2f;
 }
 
 .img{
@@ -66,18 +77,3 @@ p{
     color: var(--text-email);
 }
 
- 
- main{
-    background-color: aqua;
-    height: 70vh;
-    width: 70vw;
-    margin-left: 15%;
-}
-
-div{
-    height: 100px;
-    width: 300px;
-    margin-left: 250px;
-    margin-bottom: 40px;
-    display: inline-block;
-}
