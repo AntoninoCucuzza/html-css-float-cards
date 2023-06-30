@@ -3,8 +3,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body{
+    background-color: whitesmoke;
     font-family: 'Fredoka', sans-serif;
-    font-family: 'Mulish', sans-serif;
+
+}
+
+img{
+    max-width: 100px;
 }
 
 :root{
@@ -15,61 +23,58 @@
     --text-email: #6bcaf1 ;
 }
 
-header{
+header>p, h1{
+    margin-bottom: 2rem;
     text-align: center;
-    max-width: 900px;
-    margin-left: 35%;
-    margin-bottom: 50px;
 }
 
 h1{
-    padding: 50px;
     color: var(--h1-title);
-    
 }
 
-h3, h5{
-    color: var(--text-cards);
-    padding: 5px;
-    margin-left: 120px;
-    
+a{
+    color: var(--text-email);
+    text-decoration: none;
 }
 
-
-p{
-    color: var(--p-text);
-}
-
-main{
-    height: 70vh;
-    width: 70vw;
-    margin-left: 15%;
+/* #region main */
+.shadow{
+    box-shadow: 0px 0px 10px 10px #302f2f;
 }
 
 
-/* #endregion common  */
+.container{
+    width: 80%;
+    max-width: 1160px;
+    margin: 0 auto;
 
+}
 
 .box{
-    height: 100px;
-    width: 300px;
-    margin-left: 250px;
-    margin-bottom: 40px;
-    display: inline-block;
-    background-color: var(--bg-cards);
-    max-width: 460px;
-    box-shadow: 0px 0px 10px 4px #302f2f;
+    float: left;
+    padding: 0 10px;
+    margin-bottom: 20px;
 }
 
-.img{
+.avatar, .dettagli{
     float: left;
-    height: 100px;
+}
+
+
+.avatar{
     width: 100px;
+}
+
+.dettagli{
+    background-color: var(--bg-cards);
+    color: var(--text-cards);
+    width: 250px;
+    padding: 19px;
 }
 
 .clearfix::after{
     content: " ";
-    display: block;
+    display: table;
     clear: both;
 }
 
@@ -77,3 +82,4 @@ main{
     color: var(--text-email);
 }
 
+/* #endregion main */
